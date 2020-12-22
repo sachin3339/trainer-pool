@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Alchemy">
+    <meta name="author" content="Alchemy">
+    <title>Search Trainer</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/app.css" rel="stylesheet">
+    <link href="../css/blue.css" rel="stylesheet">
+    <link href="../css/main_app.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainHeader">
+        <div class="headerInner">
+            <div class="logoIcn"><a to="/" class="page-active">Alchemy</a></div>
+            <div class="d-flex">
+                <div class=" mr-3"><a href="./Modals.html" class="alc-nav-menu">Login Modal</a></div>
+                <div class=" mr-3"><a href="./SearchResult.html" class="alc-nav-menu">Search Trainer</a></div>
+                <div class=" mr-3"><a href="./SearchDetails.html" class="alc-nav-menu">Trainer Details</a></div>
+                <div class=" mr-3"><a href="./DashTrainerDetails.html" class="alc-nav-menu">DashTrainer Details</a></div>
+                <div class=" mr-3"><a href="./Dashboard.html" class="alc-nav-menu">Dashboard</a></div>
+                <div class=" mr-4"><a href="./ContactPage.html" class="alc-nav-menu">Contact Us</a></div>
+                <div class="loginBtn mr-2">LOGIN</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="search-master">
+            <div class="container">
+                <div class="search-breadcrumb"><span class="cp">Home / </span><span class="cp"> Search Results /
+                    </span><span class="current-active cp"> Ankit Kumar </span></div>
+
+                <!-- {/* trainer search bar */} -->
+                <div class="ts-div">
+                    <div class="ts-body jcb">
+                        <div class="search-label-title">8 Search Result For "Ankit Kumar"</div>
+                        <div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control form-control-sm searchInp"
+                                    placeholder="Search Trainer By Name, Technology, Location"
+                                    aria-describedby="basic-addon2" />
+                                <div class="input-group-append">
+                                    <span class="input-group-text searchBtn" id="basic-addon2"><i
+                                            class="fa fa-search"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- {/* trainer search bar */} -->
+
+                <!-- {/* Search trainer page */} -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="td-card">
+                            <div class="activity-card">
+                                <div class="activity-card-header title1">Filter By</div>
+                                <div class="activity-card-info">
+
+                                    <div class="activity-row">
+                                        <div class="activity-info-title text-muted">Technology</div>
+                                        <div class="activity-info-details">
+                                            <select class="form-control form-control-sm">
+                                                <option>-- Select Technology --</option>
+                                                <option>Java</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="activity-row">
+                                        <div class="activity-info-title text-muted">Location</div>
+                                        <div class="activity-info-details">
+                                            <select class="form-control form-control-sm">
+                                                <option>-- Select Location --</option>
+                                                <option>Delhi</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="activity-row">
+                                        <div class="activity-info-title text-muted">Rating</div>
+                                        <div class="activity-info-details">
+                                            <select class="form-control form-control-sm">
+                                                <option>-- Select Rating --</option>
+                                                <option>4.0</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-8">
+
+                        <table class="table alc-table">
+                            <thead>
+                                <tr>
+                                    <th>Trainer Name <span class="ml-2"><i class="fa fa-sort"></i></span></th>
+                                    <th>Rating<span class="ml-2"><i class="fa fa-sort"></i></span></th>
+                                    <th>Location<span class="ml-2"><i class="fa fa-sort"></i></span></th>
+                                    <th>Core Skills<span class="ml-2"><i class="fa fa-sort"></i></span></th>
+                                    <th>Last Updated On<span class="ml-2"><i class="fa fa-sort"></i></span></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="flx flx-center">
+                                            <div class="mr10">
+                                                <span class="user-img-sm">
+                                                    <span>AK</span>
+                                                </span>
+                                            </div>
+                                            <div class="flx1 elps">
+                                                Ankit Kumar
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td><span class="rating-star mr-1"><i class="fa fa-star"></i></span><span>4.8</span>
+                                    </td>
+                                    <td>Delhi, India</td>
+                                    <td>Microsoft</td>
+                                    <td>20/10/2020</td>
+                                    <td><i class="fa fa-ellipsis-v"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="flx flx-center">
+                                            <div class="mr10">
+                                                <span class="user-img-sm">
+                                                    <span>AK</span>
+                                                </span>
+                                            </div>
+                                            <div class="flx1 elps">
+                                                Ankit Kumar
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td><span class="rating-star mr-1"><i class="fa fa-star"></i></span><span>4.8</span>
+                                    </td>
+                                    <td>Delhi, India</td>
+                                    <td>Microsoft</td>
+                                    <td>20/10/2020</td>
+                                    <td><i class="fa fa-ellipsis-v"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="flx flx-center">
+                                            <div class="mr10">
+                                                <span class="user-img-sm">
+                                                    <span>AK</span>
+                                                </span>
+                                            </div>
+                                            <div class="flx1 elps">
+                                                Ankit Kumar
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td><span class="rating-star mr-1"><i class="fa fa-star"></i></span><span>4.8</span>
+                                    </td>
+                                    <td>Delhi, India</td>
+                                    <td>Microsoft</td>
+                                    <td>20/10/2020</td>
+                                    <td><i class="fa fa-ellipsis-v"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="flx flx-center">
+                                            <div class="mr10">
+                                                <span class="user-img-sm">
+                                                    <span>AK</span>
+                                                </span>
+                                            </div>
+                                            <div class="flx1 elps">
+                                                Ankit Kumar
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td><span class="rating-star mr-1"><i class="fa fa-star"></i></span><span>4.8</span>
+                                    </td>
+                                    <td>Delhi, India</td>
+                                    <td>Microsoft</td>
+                                    <td>20/10/2020</td>
+                                    <td><i class="fa fa-ellipsis-v"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="flx flx-center">
+                                            <div class="mr10">
+                                                <span class="user-img-sm">
+                                                    <span>AK</span>
+                                                </span>
+                                            </div>
+                                            <div class="flx1 elps">
+                                                Ankit Kumar
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td><span class="rating-star mr-1"><i class="fa fa-star"></i></span><span>4.8</span>
+                                    </td>
+                                    <td>Delhi, India</td>
+                                    <td>Microsoft</td>
+                                    <td>20/10/2020</td>
+                                    <td><i class="fa fa-ellipsis-v"></i></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="flx flx-center">
+                                            <div class="mr10">
+                                                <span class="user-img-sm">
+                                                    <span>AK</span>
+                                                </span>
+                                            </div>
+                                            <div class="flx1 elps">
+                                                Ankit Kumar
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td><span class="rating-star mr-1"><i class="fa fa-star"></i></span><span>4.8</span>
+                                    </td>
+                                    <td>Delhi, India</td>
+                                    <td>Microsoft</td>
+                                    <td>20/10/2020</td>
+                                    <td><i class="fa fa-ellipsis-v"></i></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <!-- {/* pagination */} -->
+                        <div class="paginationContainer">
+                            <div class="paginationDiv">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- {/* end Search trainer details*/} -->
+
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="footer-body">
+                    <div class="pt-3 pb-3">
+                        <div class="jcb">
+                            <div><span>Terms & Condition</span><span class="pl-2 pr-2">|</span><span>Privacy Policy</span></div>
+                            <div>Copyright &copy; 2020. All Right Reserved.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

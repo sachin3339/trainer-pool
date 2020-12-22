@@ -1,0 +1,164 @@
+/*********
+    * 
+    * Alchemy Solutions Pvt Ltd. Confidential
+    * ____
+    * 
+    *  Copyright Alchemy Solutions Pvt Ltd. 2020. All rights reserved
+    * 
+    * NOTICE:  All information contained herein is, and remains
+    * the property of Alchemy Solutions Pvt Ltd. and its suppliers,
+    * if any.  The intellectual and technical concepts contained
+    * herein are proprietary to Alchemy Solutions Pvt Ltd.
+    * and its suppliers and may be covered by U.S. and Foreign Patents,
+    * patents in process, and are protected by trade secret or copyright law.
+    * Dissemination of this information or reproduction of this material
+    * is strictly forbidden unless prior written permission is obtained
+    * from Alchemy Solutions Pvt Ltd.
+*/
+
+.lt-ad::before{
+	background: #127EBA;
+}
+a:focus {
+    outline: 1px dotted;
+}
+.form-control:focus{
+	border-color: #80bdff;
+}
+.form-control:focus, .btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 1px #80bdff !important;
+}
+/* buttons */
+.btn-primary {
+    background-color: #127EBA;
+    border-color: #127EBA;
+}
+.btn-primary:hover {
+    background-color: #127EBA;
+    border-color: #127EBA;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #127EBA;
+    border-color: #127EBA;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #127EBA;
+    border-color: #127EBA;
+}
+.btn-outline-primary {
+    color: #127EBA;
+    border-color: #127EBA;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #127EBA;
+    border-color: #127EBA;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #127EBA;
+    border-color: #127EBA;
+}
+.btn-warning {
+    color: white;
+    background-color:#EE9800;
+    border-color:#EE9800;
+}
+.btn-warning:hover {
+    color: white;
+    background-color:#EE9800;
+    border-color:#EE9800;
+}
+
+
+/* loading */
+.loader:before, .loader:after{
+	background: #127EBA;
+}
+.loader:after {
+    background: #127EBA;
+}
+
+/* Dropdown */
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #127EBA;
+}
+button.dropdown-item:focus{
+	outline: none;
+}
+
+/* UI components */
+
+.page-active{
+    color: #127EBA !important;  
+}
+.lt-menu {
+    background-color: #127EBA !important;
+}
+.secondary-nav{
+    background-color: #F2F5F6;    
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+.lt-nav-menu > li > a{
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+.lt-nav-menu > li.active > a {
+    background-color: #127EBA !important;
+    border-left-color:#FFD700;
+    outline: none;
+}
+
+.lt-nav-menu > li > a:hover {
+    background-color: #127EBA !important;
+}
+.lt-menu hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.54);
+}
+
+.profile-action-btns .btn {
+    border: 1px solid #0288ae;
+}
+.user-pic-profile, .user-pic{
+	background-color: #dce8ea;
+}
+.user-pic:hover {
+    border-color: #127EBA;
+}
+.new-page{
+	color: #127EBA;
+}
+.login-acc-info {
+    background-color: #dce8ea;
+}
+.nav-menu-item.active {
+    background-color: #e2f1f5;
+}
+.nav-menu-item.active path, .nav-menu-item.active ellipse {
+    fill: #127EBA;
+}
+
+.menu-active{
+    background: #CAE4FC !important;
+    color: #111;
+}
+
+/* Global fix */
+a:active{
+    outline: none !important;
+}
+
+/* modal */
+.alc-modal .modal-header {
+    background-color: #127EBA;
+    color: #fff;
+}
+
+.drag-line {
+    border-bottom: dashed #127EBA !important;
+}

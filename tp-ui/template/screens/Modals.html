@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/app.css" rel="stylesheet">
+    <link href="../css/blue.css" rel="stylesheet">
+    <link href="../css/main_app.css" rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <div class="mainHeader">
+        <div class="headerInner">
+            <div class="logoIcn"><a to="/" class="page-active">Alchemy</a></div>
+            <div class="d-flex">
+                <div class=" mr-3"><a href="./Modals.html" class="alc-nav-menu">Login Modal</a></div>
+                <div class=" mr-3"><a href="./SearchResult.html" class="alc-nav-menu">Search Trainer</a></div>
+                <div class=" mr-3"><a href="./SearchDetails.html" class="alc-nav-menu">Trainer Details</a></div>
+                <div class=" mr-3"><a href="./DashTrainerDetails.html" class="alc-nav-menu">DashTrainer Details</a></div>
+                <div class=" mr-3"><a href="./Dashboard.html" class="alc-nav-menu">Dashboard</a></div>
+                <div class=" mr-4"><a href="./ContactPage.html" class="alc-nav-menu">Contact Us</a></div>
+                <div class="loginBtn mr-2">LOGIN</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modals">
+
+        <!-- {/* Login modal */} -->
+        <div class="login-modal">
+            <div class="login-modal-header">
+                <div class="login-close cp">{ICN_CLOSE}</div>
+                <div class="lmh-center">
+                    <div class="jcc">
+                        <span class="lh-logo"><span>{ICN_LOGIN}</span></span>
+                    </div>
+                    <div class="lh-text">Admin Login</div>
+                </div>
+            </div>
+            <div class="login-modal-body">
+                <div class="lmb-content">
+                    
+                    <div class="loginForm">
+                        <div class="f13 text-muted">Enter your Registered Email ID<span class="mandatory-field">*</span></div>
+                        <input class="form-control form-control-sm" placeholder="Your Email" />
+                    </div>
+                    <div class="jcc"><button type="button" class="btn btn-sm btn-primary pl-3 pr-3 mt-3">Get OTP</button></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- {/* OTP Modal */} -->
+        <div class="login-modal">
+            <div class="login-modal-header">
+                <div class="login-close cp">{ICN_CLOSE}</div>
+                <div class="lmh-center">
+                    <div class="jcc">
+                        <span class="lh-logo"><span>{ICN_LOGIN}</span></span>
+                    </div>
+                    <div class="lh-text">Admin Login</div>
+                </div>
+            </div>
+            <div class="login-modal-body">
+                <div class="otp-content">
+                    <div class="otp-Form">
+                        <div class="f13 text-muted">Enter the OTP</div>
+                        <div class="otp-inp-box">
+                            <input type="text" class="otp-inp" maxlength="1"/>
+                            <input type="text" class="otp-inp" maxlength="1"/>
+                            <input type="text" class="otp-inp" maxlength="1"/>
+                            <input type="text" class="otp-inp" maxlength="1"/>
+                        </div>
+                        <div class="text-link jcc f12 mt-1 cp">Resend OTP</div>
+                    </div>
+                    <div class="jcc"><button type="button" class="btn btn-sm btn-primary pl-3 pr-3 mt-3">Login</button></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
